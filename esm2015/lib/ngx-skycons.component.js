@@ -718,7 +718,7 @@ export class SkyconsComponent {
      */
     ngOnChanges(changes) {
         this.remove();
-        this.ctx = this.canvas.nativeElement;
+        // this.ctx = this.canvas.nativeElement;
         this.add();
         this.play();
     }

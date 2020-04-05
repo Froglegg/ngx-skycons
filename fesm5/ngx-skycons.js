@@ -955,7 +955,7 @@ var SkyconsComponent = /** @class */ (function () {
      */
     function (changes) {
         this.remove();
-        this.ctx = this.canvas.nativeElement;
+        // this.ctx = this.canvas.nativeElement;
         this.add();
         this.play();
     };
